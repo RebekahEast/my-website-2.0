@@ -1,0 +1,89 @@
+#hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
+.content:hover {
+    box-shadow: 4px 10px 10px rgb(13, 0, 0);
+}
+
+.activity {
+    padding: 10px;
+    width: 48%;
+    background-color: rgb(39, 40, 40);
+    border: black solid 2px;
+    align-items: center;
+    padding: 0 18px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: geneva;
+}
+
+.collapsible {
+    cursor:pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: geneva;
+    text-transform: uppercase;
+    background-color:#cdbcdc;
+    width: 50%;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+  
+.collapsible:hover {
+    background-color: #5e5169;
+}
+
+.collapsible:active {
+  cursor: grabbing;
+}
+
+.craft_pic {
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.cooking_pic {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: auto;
+} 
+
+.show-image-btn {
+  background-color: #cdbcdc;
+  border: solid slategray 1px;
+  font-family: geneva;
+  padding: 10px 9px;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  display: block;
+  border-radius: 25%;
+}
+
+a {
+  color:#cdbcdc;
+}
+
+p {
+  text-align: center;
+}
+
+.books {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}

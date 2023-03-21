@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+.top-border-nav {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    border: 1px gainsboro solid;
+    flex-wrap: wrap;
+}
+
+.top-border-nav a {
+    color: white;
+    padding: 10px 5%;
+    text-align: center;
+    font-family:Geneva;
+    font-size: 100%;
+  }
+
+.top-border-nav a:hover {
+    background-color: #cdbcdc;
+    color: darkslategrey;
+}
+
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+    background-color: black;
+    color: #cdbcdc;
+    font-family: 'Monofett';
+    border: 1px gainsboro solid;
+    font-size: 390%;
+}
+
+body {
+    align-items: center;
+    background-color: rgb(78, 73, 73);
+}
+
+.intro_text {
+  text-transform:uppercase;
+  font-family: 'Monofett';
+  color: #cdbcdc;
+  font-size: 400%;
+  letter-spacing: 0.1em;
+}
+
+.intro_image {
+    border-radius: 50%;
+    float: right;    
+    max-height: 500px;
+    border: 2px gainsboro solid;
+    align-self: center;
+} 
+
+@media screen and (max-width: 900px) {
+    .intro {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 70%;
+    }
+  }
+
+p{
+    font-size: 20px;
+    text-align: left;
+    font-family: Geneva;
+    color: #cdbcdc;
+    margin: 4%;
+  }
+
+  h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: Geneva;
+    color: #cdbcdc;
+    margin: 4%;
+  }
+
+@media screen and (max-width: 900px) {
+    p {
+        text-align: center;
+    }
+  }
+
+footer {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background: black;
+    color: #cdbcdc;
+    font-family: Geneva;
+  }
+
+a {
+    color: black;
+  }
+
+.center_image {
+    margin: auto;
+    display: block;
+    max-height: 100px;   
+}
+
+
+.hobbies {
+  position: relative;
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.hobbies .reading {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.hobbies:hover .reading {
+  visibility: visible;
+}

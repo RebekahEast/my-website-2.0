@@ -1,0 +1,78 @@
+.book-recos {
+    margin: 10%;
+    text-align: center;
+    position: relative;
+}
+  
+.books-container {
+    display: flex;
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    line-height: 1.8em;
+    font-family: geneva;
+}
+
+.book_pics {
+    float: left;
+    margin: -10px 15px 15px 10px;
+    width: 40%;
+    border-radius: 30%;
+}
+
+h5 {
+    font-size: 16px;
+    color: slategray;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.book-arrow {
+    display: flex;
+    width: 3rem;
+    position: absolute;
+    font-size: 3rem;
+    opacity: 0.6;
+    background-color: white;
+    border: none;
+}
+
+.book-arrow:hover,
+.book-arrow:focus {
+    opacity: 0.8;
+}
+
+#book-arrow-prev {
+    left: 0;
+}
+
+#book-arrow-next {
+    right: 0;
+}
+
+.book {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+    min-height: 700px;
+    background-color: #cdbcdc;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .intro {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 70%;
+    }
+    .book-recos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* .bookrecs:after {
+        content:"Book Recs";
+    } */

@@ -1,0 +1,76 @@
+p {
+    text-align: center;
+}
+
+.pet-image {
+    border-radius: 5px;
+    object-fit: contain;
+    width: 140px;
+    height: 140px;
+}
+
+.Pets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.wrapper {
+    background-color: rgb(187, 187, 187);
+    position: relative;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 60%;
+    height: 300%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 4%;
+}
+
+.pet-container {
+    height: 70%;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 15%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.wrapper button {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color:rgb(187, 187, 187);
+    border: none;
+    position: absolute;
+    margin: auto;
+    font-size: 20px;
+    top:0;
+    left: 4%;
+    bottom: 0;
+}
+
+button#next{
+    right: -83%;
+}
+
+.pet-container p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.pet-container h3 {
+    padding-top: 20px;
+    font-size: 35px;
+    line-height: 1.5em;
+}
+
+.pet-container img {
+    width: 30%;
+    border-radius: 50%;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Bekah</title>
+    <link href="../styles.css" rel="stylesheet">
+    <link href="../hobbies.css" rel="stylesheet">
+    <link rel="icon" href="../pictures/smiley.png">
+</head>
+<body>
+
+    <div class="top-border-nav">
+        <a href="../index.html">Home</a>
+        <a href="About.html">About Me</a>
+        <div class = "hobbies">
+            <a href="hobbies.html" class = "hobbies">Hobbies</a>
+            <a href="reading.html" class = "reading">Reading</a>
+        </div>
+        <a href="pets2.html">My Pets</a>
+        <a href="projects.html">My Projects</a>
+        <a href="#application">My Application</a>
+    </div>
+
+    <h1 class="head">Hobbies</h1>
+    <div class="intro">
+        <img class="intro_image" src="../pictures/gif.gif" alt="concrete cows of Milton Keynes">
+        <div class="intro_text"> 
+            <!-- why does monofett (font) not appear in this when it's called in the CSS code? It's doing some of the actions but not all and I don't know why.. -->
+            <h2>I have a range of hobbies and love to try out new ones too!</h2>
+        </div>
+    </div>
+    
+    <button type = "button" class = "collapsible">CRAFTING</button>
+    <div class = "activity">
+        <p>Crafting is a very big hobby of mine. You'd usually find me in the evenings chilling on a sofa with a mug of peppermint tea and getting into my current crafting project. I can crochet, knit, sew, and I can make macrame. At the moment, I'm learning how to make more wearable items <em>(including a jumper!)</em>. </p>
+        <p>I've always enjoyed crafting, and from a young age I learnt how to knit from my grandmother. It's something I'm proud to be able to do, as a skill!</p>
+        <p>Take a look at a recently completed project here!</p>
+        <img class = "craft_pic" id="water-bottle" src = "../pictures/water-bottle.png" alt="craft project - hot water bottle cover">
+        <button type="button" onclick="show_craft()" id="button-craft" class="show-image-btn">SHOW IMAGE</button>
+    </div> 
+
+    <button type = "button" class = "collapsible">COOKING AND GROWING</button>
+    <div class = "activity">
+        <p>I'm a hot sauce fiend. Put it on just about everything. I grow my own chillies every year and make a small hot sauce with chillies, carrots, garlic and other ingredients on the hob. I love to grow items, and then if I can cook with them - even better!</p>
+        <p>In the past I have grown cucumbers, chillies, tomatoes, and avocados! Well not actually avocados, just the plant for now. It can take up to 10 years to get avocados from their plants.. So I have some waiting to do. Same thing with my lemon plant, I'm in it for the long game!</p>
+        <p>I also spend a large amount of time cooking, every type of cuisine too! My favourite meal to cook is a probably a vegetarian lasagna or a mushroom ramen with tenderstem broccoli. We love to follow Ottolenghi's recipes - our fave is actually his mushroom lasanga. It genuinely takes 3+ hours, but sooo worth it! I also recently got into making my own pasta, which just tops everything off as a fab meal!</p>
+        <div class = "cooking_pic">
+            <img class = "craft_pic hello" id="cucumber" src = "../pictures/home-cucumbers.JPG" alt="large homemade cucumbers">
+            <img class = "craft_pic hello" id="strawb" src = "../pictures/home-strawbs.jpg" alt="small homemade strawberries">
+            <img class = "craft_pic hello" id="pasta" src = "../pictures/homemade-pasta.jpg" alt="pasta meal cooked at home with homemade pasta">
+            <button type="button" onclick="show_cooking_growing()" id="button_cooking_growing" class="show-image-btn">SHOW IMAGE</button>
+        </div>
+    </div>
+
+    <button type = "button" class = "collapsible">FOOTBALL</button>
+    <div class = "activity">
+        <p>I recently joined East Finchley Women's Football Club. We train every Wednesday, come rain or shine. It's a one hour session led by a coach, where we do 30 mins of practice drills followed by a 30 minute game. Depending on the number of people in attendance, it's usually 5 or 7 a side.</p>
+        <p>When I first started I thought that I was a defender, as this is what I played when I was younger. However, I think I prefer to be a midfielder. I enjoy the stretches on running, and having oversight on the whole game by being support for both forward people and defenders.</p>
+        <p>I have a lot to learn, but it's been really fun so far getting to know people in the area, and learning more about a sport I didn't think I would play again. I love the team aspect of it too! If you wanted to find out more, visit their website <a href="https://efwfc.co.uk/about/">here.</a></p>
+    </div>   
+    
+    <button type = "button" class = "collapsible">Plant Care</button>
+    <div class = "activity">
+        <p>Plants are love, plants are life! I'm not the best plant mum in the world, but I try to take care of the ones I've got. My plants range from small (cactus) all the way up to a Swiss Cheese plant that takes up most of the front room space!</p>
+        <p>I've made a great webpage all about indoor plant care. Have a look <a href="https://rebekaheast.github.io/Hobby-Page/">here</a> for helpful hints and tips!</p>
+    </div> 
+ 
+    <button type = "button" class = "collapsible">Reading</button>
+    <div class = "activity">
+        <p>I'm a reader! I spent some time after university reading books that I thought I should be - to educate myself, and understand more about the world. Although it made great conversation, I fell out of love with reading and started to dwindle on the number of pages I was reading at the time.</p>
+        <p>During covid I wanted to read all the Harry Potter books for the first time ever. It completely changed my perspective on reading and I stopped picking books based off what I thought other people wanted me to read, and started reading what I enjoyed. Since then I've been greatly engrossed in many books! You can see my GoodReads page <a href="https://www.goodreads.com/rebekahjean">here.</a></p>
+        <img class = "books" src = "../pictures/illo-character.png" alt="person with ginger cat, surrounded by books">
+    </div> 
+    <script src="../hobbies.js"></script>
+</body>
+<footer>
+    <h2> Want to get in touch with Bekah? Send a linkedin Message. Click the logo to go to Bekah's profile. <a href="https://www.linkedin.com/in/rebekah-jean-east/"><img src="../pictures/linkedin-logo.png" alt="Linkedin Logo" width="30" target="_blank"></a></h2>
+    </footer>   
+    </div>
+</footer>
+</html>

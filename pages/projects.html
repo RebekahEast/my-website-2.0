@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="../styles.css" rel="stylesheet">
+    <link href="../projects.css" rel="stylesheet">
+    <link rel="icon" href="../pictures/smiley.png">
+</head>
+<body>    
+    <div class="top-border-nav">
+        <a href="../index.html">Home</a>
+        <a href="About.html">About Me</a>
+        <div class = "hobbies">
+            <a href="hobbies.html" class = "hobbies">Hobbies</a>
+            <a href="reading.html" class = "reading">Reading</a>
+        </div>
+        <a href="pets2.html">My Pets</a>
+        <a href="projects.html">My Projects</a>
+        <a href="#application">My Application</a>
+    </div>
+
+    <h1 class="head">My Projects</h1>
+    <div class="intro">
+        <img class="intro_image" src="../pictures/projects.gif" alt="gif of a computer with a moving graph on it to show high and low trends">
+        <div class="intro_text"> 
+            <h2>Learn about my projects here</h2>
+        </div>
+        <p>I've been working with a range of coding languages since June 2022. In this time, I've kept practising, learning and developing my skills! Below are a few of my projects, have a look through and see what you think. I keep pushing myself to take on bigger and better projects. </p><br><br>
+    </div>
+    
+    <div class="box" id ="box">
+
+        <div class="box-info">
+            <img class ="project-image" src="../pictures/hobby-page.png" alt="website screenshot - light pink colours - row of plant visible">
+            <a href="https://rebekaheast.github.io/Hobby-Page/" target="_blank">
+                <img src="../pictures/link.png" class = "project-link" alt="picture of a chain with two linked links">
+            </a>
+            <div class="project-text">
+                <h1>Hobby Page</h1>
+                <h5>Using my experience with HTML and CSS, I created a webpage of one of my interests - plant care! The idea for this was to make the page as user friendly as possible for a new time plant owner, or someone looking to care for their plants.</h5>
+            </div>
+        </div>
+
+        <div class="box-info">
+            <img class ="project-image" src="../pictures/project-page.png" alt="website screenshot - some snippets of text visible - two columns of projects">
+            <a href="https://rebekaheast.github.io/Project-Page/" target="_blank">
+                <img src="../pictures/link.png" class = "project-link" alt="picture of a chain with two linked links">
+            </a>
+            <div class="project-text">
+                <h1>Project Page</h1>
+                <h5>I created a webpage to host all my projects I have been working on. It allows the user to toggle the text and read more about each one if they'd like - it also has a link to each project via the title. The page was created with a flexbox. </h5>
+            </div>     
+        </div>
+
+        <div class="box-info">
+            <img class ="project-image" src="../pictures/Screenshot 2023-03-06 at 15.57.31.png" alt="website screenshot - grey colour - a submission box on show - the title of the page (the best movies!) is visible">
+            <a href="https://rebekaheast.github.io/Movie-Data/" target="_blank">
+                <img src="../pictures/link.png" class = "project-link" alt="picture of a chain with two linked links">
+            </a>
+            <div class="project-text">
+                <h1>Movie Data</h1>
+                <h5>I created a movie directory to show some top movies, and also allow the user to input data about their best movie choices too. The webpage has a submit option for sending in own responses, and the data will appear underneath in a flexbox.</h5>
+            </div>
+        </div>
+
+        <div class="box-info">
+            <img class ="project-image" src="../pictures/Screenshot 2023-03-06 at 16.12.37.png" alt="website screenshot - pictures of cows in a square, one is a description of the cow breed">
+            <a href="https://rebekaheast.github.io/gallery-flexbox/" target="_blank">
+                <img src="../pictures/link.png" class = "project-link" alt="picture of a chain with two linked links">
+            </a>
+            <div class="project-text">
+                <h1>Cow Page</h1>
+                <h5>I wanted to test my flexbox and javascript learnings, so I created a cow page where there are different cow breeds and facts to learn about each of them! If you hover over each cow, then you'll get a fact about that breed courtesy of Javascript.</h5>
+            </div>     
+        </div>
+
+        <div class="box-info">
+            <img class ="project-image" src="../pictures/Screenshot 2023-03-06 at 16.16.51.png" alt="website screenshot - the title 1024 - instructions in front of the quadrant board of the game.">
+            <a href="https://rebekaheast.github.io/game/" target="_blank">
+                <img src="../pictures/link.png" class = "project-link" alt="picture of a chain with two linked links">
+            </a>
+            <div class="project-text">
+                <h1>WIP: 1024</h1>
+                <h5>This project is a work in progress. I am trying to recreate a beloved game of mine (1024). A lot of the code sits in Javascript, and I'm pushing myself to create this really big project in order to learn more about the language.</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <form id = "comments">
+        <div>
+            <label for="commenting" class="label">What do you think of my projects?</label>
+            <img src = "../pictures/comments.png" width = 35 alt="three dots in a speech bubble"><br>
+            <textarea oninput="countChars (this)" id="words" class="input" rows="10" minlength="2"></textarea>
+            <p id="charNum">140 character limit</p>
+        </div>
+
+        <div id="person_info">
+            <label for="name" class="label">Your Name*</label>
+            <input type="name" id="name" class="input" placeholder="name" required><br>
+
+            <label for="email" class="label">Your Email</label>
+            <input type="email" id="email" class="input" placeholder="email" required>
+        </div>
+        <input type="submit" id="send" value="comment">
+    </form>
+    
+    <p id = "responses"></p>
+
+    <script src="../projects.js"></script>
+
+</body>
+<footer>
+    <h2> Want to get in touch with Bekah? Send a linkedin Message. Click the logo to go to Bekah's profile. <a href="https://www.linkedin.com/in/rebekah-jean-east/"><img src="../pictures/linkedin-logo.png" alt="Linkedin Logo" width="30" target="_blank"></a></h2>
+    </footer>   
+    </div>
+</footer>
+</html>
